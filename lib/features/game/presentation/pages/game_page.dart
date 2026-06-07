@@ -78,6 +78,9 @@ class _GamePageBodyState extends State<_GamePageBody> {
   }
 
   void _showSettings(BuildContext context) {
+    final pageContext = context;
+    final bloc = context.read<GameBloc>();
+
     showDialog(
       context: context,
       builder: (BuildContext dialogContext) {
@@ -169,7 +172,12 @@ class _GamePageBodyState extends State<_GamePageBody> {
                           icon: Icons.home_rounded,
                           label: 'Басты бет',
                           onTap: () {
-                            Navigator.of(context).pop();
+                            Navigator.of(dialogContext).pop();
+
+                            Future.delayed(const Duration(milliseconds: 150),
+                                () {
+                              Navigator.of(pageContext).pop();
+                            });
                           },
                         ),
                         const Divider(height: 1),
@@ -178,7 +186,7 @@ class _GamePageBodyState extends State<_GamePageBody> {
                           label: 'Қайта бастау',
                           onTap: () {
                             Navigator.of(context).pop();
-                            context.read<GameBloc>().add(const GameReset());
+                            bloc.add(const GameReset());
                           },
                         ),
                         const Divider(height: 1),
@@ -186,8 +194,11 @@ class _GamePageBodyState extends State<_GamePageBody> {
                           icon: Icons.info_outline_rounded,
                           label: 'Ақпарат',
                           onTap: () {
-                            Navigator.of(context).pop();
-                            _showHowToPlay(context);
+                            Navigator.of(dialogContext).pop();
+                            Future.delayed(const Duration(milliseconds: 150),
+                                () {
+                              _showHowToPlay(pageContext);
+                            });
                           },
                         ),
 

@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage>
                   const SizedBox(height: 16),
 
                   // ── Топ бар ──────────────────────────────
-                  const _TopBar(),
+                  // const _TopBar(),
 
                   const Spacer(),
 
