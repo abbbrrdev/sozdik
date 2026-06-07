@@ -9,7 +9,7 @@ class WordLocalDatasource {
   /// Loads words from assets if not already cached
   Future<List<WordDetailsModel>> _getWords() async {
     if (_cachedWords != null) return _cachedWords!;
-    final jsonStr = await rootBundle.loadString('assets/words.json');
+    final jsonStr = await rootBundle.loadString('assets/json/words.json');
     final List<dynamic> jsonList = jsonDecode(jsonStr);
     _cachedWords = jsonList.map((e) => WordDetailsModel.fromJson(e)).toList();
     return _cachedWords!;

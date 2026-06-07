@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage>
                             heightFactor:
                                 0.5,
                             child: Lottie.asset(
-                              'assets/owl.json',
+                              'assets/json/owl.json',
                               width: 280,
                               fit: BoxFit.fitWidth,
                             ),

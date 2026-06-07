@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -36,6 +37,8 @@ class _GamePageBody extends StatefulWidget {
 }
 
 class _GamePageBodyState extends State<_GamePageBody> {
+  final AudioPlayer _audioPlayer = AudioPlayer();
+
   OverlayEntry? _toastOverlay;
   bool _isSoundEnabled = true;
   bool _isVibrationEnabled = true;
@@ -44,6 +47,13 @@ class _GamePageBodyState extends State<_GamePageBody> {
   void initState() {
     super.initState();
     _checkFirstLaunch();
+  }
+
+  Future<void> _playSound(String fileName) async {
+    if (!_isSoundEnabled) return;
+    try {
+      await _audioPlayer.play(AssetSource('sounds/$fileName'));
+    } catch (_) {}
   }
 
   Future<void> _checkFirstLaunch() async {
@@ -369,6 +379,7 @@ class _GamePageBodyState extends State<_GamePageBody> {
   @override
   void dispose() {
     _toastOverlay?.remove();
+    _audioPlayer.dispose();
     super.dispose();
   }
 
@@ -391,6 +402,8 @@ class _GamePageBodyState extends State<_GamePageBody> {
         }
         if (state is GameWon) {
           if (_isVibrationEnabled) HapticFeedback.heavyImpact();
+
+          _playSound('win.mp3');
 
           _toastOverlay?.remove();
           _toastOverlay = null;
@@ -422,6 +435,8 @@ class _GamePageBodyState extends State<_GamePageBody> {
         }
         if (state is GameLost) {
           if (_isVibrationEnabled) HapticFeedback.heavyImpact();
+
+          _playSound('lose.mp3');
 
           _toastOverlay?.remove();
           _toastOverlay = null;

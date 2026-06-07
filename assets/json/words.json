@@ -1,0 +1,2720 @@
+[
+    {
+        "word": "АНА",
+        "translation": "ана — мама",
+        "emoji": "👩",
+        "imageQuery": "mother woman"
+    },
+    {
+        "word": "ӘКЕ",
+        "translation": "әке — папа",
+        "emoji": "👨",
+        "imageQuery": "father man"
+    },
+    {
+        "word": "АТА",
+        "translation": "ата — дедушка",
+        "emoji": "👴",
+        "imageQuery": "grandfather old man"
+    },
+    {
+        "word": "ӘЖЕ",
+        "translation": "әже — бабушка",
+        "emoji": "👵",
+        "imageQuery": "grandmother old woman"
+    },
+    {
+        "word": "АҒА",
+        "translation": "аға — старший брат",
+        "emoji": "👦",
+        "imageQuery": "older brother"
+    },
+    {
+        "word": "АПА",
+        "translation": "апа — старшая сестра",
+        "emoji": "👧",
+        "imageQuery": "older sister"
+    },
+    {
+        "word": "ҰЛ",
+        "translation": "ұл — сын",
+        "emoji": "👦",
+        "imageQuery": "son boy"
+    },
+    {
+        "word": "ҚЫЗ",
+        "translation": "қыз — девочка / дочь",
+        "emoji": "👧",
+        "imageQuery": "girl daughter"
+    },
+    {
+        "word": "ИТ",
+        "translation": "ит — собака",
+        "emoji": "🐕",
+        "imageQuery": "dog pet"
+    },
+    {
+        "word": "МЫС",
+        "translation": "мыс — кошка",
+        "emoji": "🐈",
+        "imageQuery": "cat pet"
+    },
+    {
+        "word": "АТ",
+        "translation": "ат — лошадь",
+        "emoji": "🐎",
+        "imageQuery": "horse animal"
+    },
+    {
+        "word": "СИЫ",
+        "translation": "сиыр — корова",
+        "emoji": "🐄",
+        "imageQuery": "cow animal"
+    },
+    {
+        "word": "ҚОЙ",
+        "translation": "қой — овца",
+        "emoji": "🐑",
+        "imageQuery": "sheep animal"
+    },
+    {
+        "word": "ҚАЗ",
+        "translation": "қаз — гусь",
+        "emoji": "🪿",
+        "imageQuery": "goose bird"
+    },
+    {
+        "word": "БАЛ",
+        "translation": "бал — мёд",
+        "emoji": "🍯",
+        "imageQuery": "honey jar"
+    },
+    {
+        "word": "СУ",
+        "translation": "су — вода",
+        "emoji": "💧",
+        "imageQuery": "water drink"
+    },
+    {
+        "word": "НАН",
+        "translation": "нан — хлеб",
+        "emoji": "🍞",
+        "imageQuery": "bread food"
+    },
+    {
+        "word": "ЕТ",
+        "translation": "ет — мясо",
+        "emoji": "🥩",
+        "imageQuery": "meat food"
+    },
+    {
+        "word": "СҮТ",
+        "translation": "сүт — молоко",
+        "emoji": "🥛",
+        "imageQuery": "milk drink"
+    },
+    {
+        "word": "ШАЙ",
+        "translation": "шай — чай",
+        "emoji": "🍵",
+        "imageQuery": "tea cup"
+    },
+    {
+        "word": "АС",
+        "translation": "ас — еда / обед",
+        "emoji": "🍽️",
+        "imageQuery": "food meal"
+    },
+    {
+        "word": "МАЙ",
+        "translation": "май — масло / жир",
+        "emoji": "🧈",
+        "imageQuery": "butter oil"
+    },
+    {
+        "word": "ТҰЗ",
+        "translation": "тұз — соль",
+        "emoji": "🧂",
+        "imageQuery": "salt shaker"
+    },
+    {
+        "word": "ЖҰМЫРТқА",
+        "translation": "жұмыртқа — яйцо",
+        "emoji": "🥚",
+        "imageQuery": "egg food"
+    },
+    {
+        "word": "АЛМА",
+        "translation": "алма — яблоко",
+        "emoji": "🍎",
+        "imageQuery": "apple fruit"
+    },
+    {
+        "word": "ЖҮЗІМ",
+        "translation": "жүзім — виноград",
+        "emoji": "🍇",
+        "imageQuery": "grapes fruit"
+    },
+    {
+        "word": "ҚАРБЫЗ",
+        "translation": "қарбыз — арбуз",
+        "emoji": "🍉",
+        "imageQuery": "watermelon fruit"
+    },
+    {
+        "word": "ӨРІК",
+        "translation": "өрік — абрикос",
+        "emoji": "🍑",
+        "imageQuery": "apricot fruit"
+    },
+    {
+        "word": "ШАБДАЛ",
+        "translation": "шабдал — персик",
+        "emoji": "🍑",
+        "imageQuery": "peach fruit"
+    },
+    {
+        "word": "ЛИМОН",
+        "translation": "лимон — лимон",
+        "emoji": "🍋",
+        "imageQuery": "lemon fruit"
+    },
+    {
+        "word": "СӘБІЗ",
+        "translation": "сәбіз — морковь",
+        "emoji": "🥕",
+        "imageQuery": "carrot vegetable"
+    },
+    {
+        "word": "ПИЯЗ",
+        "translation": "пияз — лук",
+        "emoji": "🧅",
+        "imageQuery": "onion vegetable"
+    },
+    {
+        "word": "КАРТОП",
+        "translation": "картоп — картошка",
+        "emoji": "🥔",
+        "imageQuery": "potato vegetable"
+    },
+    {
+        "word": "ҚИЯР",
+        "translation": "қияр — огурец",
+        "emoji": "🥒",
+        "imageQuery": "cucumber vegetable"
+    },
+    {
+        "word": "ҚАЛАМ",
+        "translation": "қалам — ручка",
+        "emoji": "✏️",
+        "imageQuery": "pen pencil"
+    },
+    {
+        "word": "ДӘПТЕР",
+        "translation": "дәптер — тетрадь",
+        "emoji": "📓",
+        "imageQuery": "notebook school"
+    },
+    {
+        "word": "КІТАП",
+        "translation": "кітап — книга",
+        "emoji": "📚",
+        "imageQuery": "book reading"
+    },
+    {
+        "word": "СУРЕТ",
+        "translation": "сурет — рисунок / фото",
+        "emoji": "🖼️",
+        "imageQuery": "picture drawing"
+    },
+    {
+        "word": "МЕКТЕП",
+        "translation": "мектеп — школа",
+        "emoji": "🏫",
+        "imageQuery": "school building"
+    },
+    {
+        "word": "СЫНЫП",
+        "translation": "сынып — класс",
+        "emoji": "🏫",
+        "imageQuery": "classroom school"
+    },
+    {
+        "word": "ТАҚТА",
+        "translation": "тақта — доска",
+        "emoji": "📋",
+        "imageQuery": "blackboard school"
+    },
+    {
+        "word": "ҮСТЕЛ",
+        "translation": "үстел — стол",
+        "emoji": "🪑",
+        "imageQuery": "table desk"
+    },
+    {
+        "word": "ОРЫНДЫҚ",
+        "translation": "орындық — стул",
+        "emoji": "🪑",
+        "imageQuery": "chair furniture"
+    },
+    {
+        "word": "ЕСІК",
+        "translation": "есік — дверь",
+        "emoji": "🚪",
+        "imageQuery": "door entrance"
+    },
+    {
+        "word": "ТЕРЕЗЕ",
+        "translation": "терезе — окно",
+        "emoji": "🪟",
+        "imageQuery": "window house"
+    },
+    {
+        "word": "ҮЙ",
+        "translation": "үй — дом",
+        "emoji": "🏠",
+        "imageQuery": "house home"
+    },
+    {
+        "word": "БӨЛМЕ",
+        "translation": "бөлме — комната",
+        "emoji": "🛋️",
+        "imageQuery": "room interior"
+    },
+    {
+        "word": "АС ҮЙ",
+        "translation": "ас үй — кухня",
+        "emoji": "🍳",
+        "imageQuery": "kitchen cooking"
+    },
+    {
+        "word": "ТӨСЕК",
+        "translation": "төсек — кровать",
+        "emoji": "🛏️",
+        "imageQuery": "bed bedroom"
+    },
+    {
+        "word": "ЖАСТЫҚ",
+        "translation": "жастық — подушка",
+        "emoji": "🛏️",
+        "imageQuery": "pillow sleep"
+    },
+    {
+        "word": "КӨРПЕ",
+        "translation": "көрпе — одеяло",
+        "emoji": "🛌",
+        "imageQuery": "blanket quilt"
+    },
+    {
+        "word": "КӨЙ­ЛЕК",
+        "translation": "көйлек — платье / рубашка",
+        "emoji": "👗",
+        "imageQuery": "dress shirt clothing"
+    },
+    {
+        "word": "ШАЛБАР",
+        "translation": "шалбар — брюки",
+        "emoji": "👖",
+        "imageQuery": "pants trousers"
+    },
+    {
+        "word": "АЯҚКИІМ",
+        "translation": "аяқкиім — обувь",
+        "emoji": "👟",
+        "imageQuery": "shoes footwear"
+    },
+    {
+        "word": "БӨРІК",
+        "translation": "бөрік — шапка",
+        "emoji": "🧢",
+        "imageQuery": "hat cap"
+    },
+    {
+        "word": "ЖЕЙДЕ",
+        "translation": "жейде — рубашка",
+        "emoji": "👕",
+        "imageQuery": "shirt clothing"
+    },
+    {
+        "word": "КӨЗ",
+        "translation": "көз — глаз",
+        "emoji": "👁️",
+        "imageQuery": "eye human"
+    },
+    {
+        "word": "МҰРЫН",
+        "translation": "мұрын — нос",
+        "emoji": "👃",
+        "imageQuery": "nose face"
+    },
+    {
+        "word": "АУЫЗ",
+        "translation": "ауыз — рот",
+        "emoji": "👄",
+        "imageQuery": "mouth lips"
+    },
+    {
+        "word": "ҚҰЛАҚ",
+        "translation": "құлақ — ухо",
+        "emoji": "👂",
+        "imageQuery": "ear hearing"
+    },
+    {
+        "word": "ҚОЛ",
+        "translation": "қол — рука",
+        "emoji": "✋",
+        "imageQuery": "hand arm"
+    },
+    {
+        "word": "АЯҚ",
+        "translation": "аяқ — нога",
+        "emoji": "🦵",
+        "imageQuery": "leg foot"
+    },
+    {
+        "word": "БАС",
+        "translation": "бас — голова",
+        "emoji": "🗣️",
+        "imageQuery": "head face"
+    },
+    {
+        "word": "ШАШ",
+        "translation": "шаш — волосы",
+        "emoji": "💇",
+        "imageQuery": "hair head"
+    },
+    {
+        "word": "ТІРШІЛІК",
+        "translation": "тіршілік — жизнь",
+        "emoji": "🌱",
+        "imageQuery": "life living"
+    },
+    {
+        "word": "КҮН",
+        "translation": "күн — день / солнце",
+        "emoji": "☀️",
+        "imageQuery": "sun day"
+    },
+    {
+        "word": "ТҮН",
+        "translation": "түн — ночь",
+        "emoji": "🌙",
+        "imageQuery": "night moon"
+    },
+    {
+        "word": "ТАҢ",
+        "translation": "таң — утро / рассвет",
+        "emoji": "🌅",
+        "imageQuery": "morning sunrise"
+    },
+    {
+        "word": "КЕШ",
+        "translation": "кеш — вечер",
+        "emoji": "🌆",
+        "imageQuery": "evening sunset"
+    },
+    {
+        "word": "АЙ",
+        "translation": "ай — луна / месяц",
+        "emoji": "🌕",
+        "imageQuery": "moon month"
+    },
+    {
+        "word": "ЖҰЛДЫЗ",
+        "translation": "жұлдыз — звезда",
+        "emoji": "⭐",
+        "imageQuery": "star sky"
+    },
+    {
+        "word": "АҢ",
+        "translation": "аң — зверь / охота",
+        "emoji": "🦁",
+        "imageQuery": "wild animal"
+    },
+    {
+        "word": "ОРМАН",
+        "translation": "орман — лес",
+        "emoji": "🌲",
+        "imageQuery": "forest trees"
+    },
+    {
+        "word": "ТАУ",
+        "translation": "тау — гора",
+        "emoji": "⛰️",
+        "imageQuery": "mountain peak"
+    },
+    {
+        "word": "ӨЗЕН",
+        "translation": "өзен — река",
+        "emoji": "🌊",
+        "imageQuery": "river water"
+    },
+    {
+        "word": "КӨЛ",
+        "translation": "көл — озеро",
+        "emoji": "🏞️",
+        "imageQuery": "lake nature"
+    },
+    {
+        "word": "ДАЛА",
+        "translation": "дала — степь",
+        "emoji": "🌾",
+        "imageQuery": "steppe field"
+    },
+    {
+        "word": "ЖЕР",
+        "translation": "жер — земля",
+        "emoji": "🌍",
+        "imageQuery": "earth ground"
+    },
+    {
+        "word": "АУА",
+        "translation": "ауа — воздух",
+        "emoji": "💨",
+        "imageQuery": "air wind"
+    },
+    {
+        "word": "ОТ",
+        "translation": "от — огонь",
+        "emoji": "🔥",
+        "imageQuery": "fire flame"
+    },
+    {
+        "word": "ҚАР",
+        "translation": "қар — снег",
+        "emoji": "❄️",
+        "imageQuery": "snow winter"
+    },
+    {
+        "word": "ЖАҢБЫР",
+        "translation": "жаңбыр — дождь",
+        "emoji": "🌧️",
+        "imageQuery": "rain drops"
+    },
+    {
+        "word": "ЖЕЛТ",
+        "translation": "жел — ветер",
+        "emoji": "🌬️",
+        "imageQuery": "wind breeze"
+    },
+    {
+        "word": "МАШИНА",
+        "translation": "машина — машина",
+        "emoji": "🚗",
+        "imageQuery": "car vehicle"
+    },
+    {
+        "word": "АВТОБУС",
+        "translation": "автобус — автобус",
+        "emoji": "🚌",
+        "imageQuery": "bus transport"
+    },
+    {
+        "word": "ҰШАҚ",
+        "translation": "ұшақ — самолёт",
+        "emoji": "✈️",
+        "imageQuery": "airplane flight"
+    },
+    {
+        "word": "КЕМЕ",
+        "translation": "кеме — корабль",
+        "emoji": "🚢",
+        "imageQuery": "ship boat"
+    },
+    {
+        "word": "ВЕЛОСИПЕД",
+        "translation": "велосипед — велосипед",
+        "emoji": "🚲",
+        "imageQuery": "bicycle cycling"
+    },
+    {
+        "word": "ДӘРІГЕР",
+        "translation": "дәрігер — врач",
+        "emoji": "👨‍⚕️",
+        "imageQuery": "doctor medical"
+    },
+    {
+        "word": "МҰҒАЛІМ",
+        "translation": "мұғалім — учитель",
+        "emoji": "👨‍🏫",
+        "imageQuery": "teacher school"
+    },
+    {
+        "word": "АСПАЗ",
+        "translation": "аспаз — повар",
+        "emoji": "👨‍🍳",
+        "imageQuery": "chef cooking"
+    },
+    {
+        "word": "ПОЛИЦИЯ",
+        "translation": "полиция — полиция",
+        "emoji": "👮",
+        "imageQuery": "police officer"
+    },
+    {
+        "word": "БІР",
+        "translation": "бір — один",
+        "emoji": "1️⃣",
+        "imageQuery": "number one"
+    },
+    {
+        "word": "ЕКІ",
+        "translation": "екі — два",
+        "emoji": "2️⃣",
+        "imageQuery": "number two"
+    },
+    {
+        "word": "ҮШ",
+        "translation": "үш — три",
+        "emoji": "3️⃣",
+        "imageQuery": "number three"
+    },
+    {
+        "word": "ТӨРТ",
+        "translation": "төрт — четыре",
+        "emoji": "4️⃣",
+        "imageQuery": "number four"
+    },
+    {
+        "word": "БЕС",
+        "translation": "бес — пять",
+        "emoji": "5️⃣",
+        "imageQuery": "number five"
+    },
+    {
+        "word": "АЛТЫ",
+        "translation": "алты — шесть",
+        "emoji": "6️⃣",
+        "imageQuery": "number six"
+    },
+    {
+        "word": "ЖЕТІ",
+        "translation": "жеті — семь",
+        "emoji": "7️⃣",
+        "imageQuery": "number seven"
+    },
+    {
+        "word": "СЕГІЗ",
+        "translation": "сегіз — восемь",
+        "emoji": "8️⃣",
+        "imageQuery": "number eight"
+    },
+    {
+        "word": "ТОҒЫЗ",
+        "translation": "тоғыз — девять",
+        "emoji": "9️⃣",
+        "imageQuery": "number nine"
+    },
+    {
+        "word": "ОН",
+        "translation": "он — десять",
+        "emoji": "🔟",
+        "imageQuery": "number ten"
+    },
+    {
+        "word": "ҚЫЗЫЛ",
+        "translation": "қызыл — красный",
+        "emoji": "🔴",
+        "imageQuery": "red color"
+    },
+    {
+        "word": "САРЫ",
+        "translation": "сары — жёлтый",
+        "emoji": "🟡",
+        "imageQuery": "yellow color"
+    },
+    {
+        "word": "ЖАСЫЛ",
+        "translation": "жасыл — зелёный",
+        "emoji": "🟢",
+        "imageQuery": "green color"
+    },
+    {
+        "word": "КОК",
+        "translation": "көк — синий / голубой",
+        "emoji": "🔵",
+        "imageQuery": "blue color"
+    },
+    {
+        "word": "АҚ",
+        "translation": "ақ — белый",
+        "emoji": "⬜",
+        "imageQuery": "white color"
+    },
+    {
+        "word": "ҚАРА",
+        "translation": "қара — чёрный",
+        "emoji": "⬛",
+        "imageQuery": "black color"
+    },
+    {
+        "word": "ҚОҢЫР",
+        "translation": "қоңыр — коричневый",
+        "emoji": "🟫",
+        "imageQuery": "brown color"
+    },
+    {
+        "word": "ТЕЛЕФОН",
+        "translation": "телефон — телефон",
+        "emoji": "📱",
+        "imageQuery": "phone mobile"
+    },
+    {
+        "word": "КОМПЬЮТЕР",
+        "translation": "компьютер — компьютер",
+        "emoji": "💻",
+        "imageQuery": "computer laptop"
+    },
+    {
+        "word": "ТЕЛЕДИДАР",
+        "translation": "теледидар — телевизор",
+        "emoji": "📺",
+        "imageQuery": "television tv"
+    },
+    {
+        "word": "ОЙЫНШЫҚ",
+        "translation": "ойыншық — игрушка",
+        "emoji": "🧸",
+        "imageQuery": "toy children"
+    },
+    {
+        "word": "ТОП",
+        "translation": "топ — мяч",
+        "emoji": "⚽",
+        "imageQuery": "ball sport"
+    },
+    {
+        "word": "ОЙЫН",
+        "translation": "ойын — игра",
+        "emoji": "🎮",
+        "imageQuery": "game play"
+    },
+    {
+        "word": "ӘН",
+        "translation": "ән — песня",
+        "emoji": "🎵",
+        "imageQuery": "song music"
+    },
+    {
+        "word": "БИ",
+        "translation": "би — танец",
+        "emoji": "💃",
+        "imageQuery": "dance music"
+    },
+    {
+        "word": "СУРЕТ",
+        "translation": "сурет — рисунок",
+        "emoji": "🎨",
+        "imageQuery": "art drawing"
+    },
+    {
+        "word": "ГҮЛ",
+        "translation": "гүл — цветок",
+        "emoji": "🌸",
+        "imageQuery": "flower nature"
+    },
+    {
+        "word": "АҒАШ",
+        "translation": "ағаш — дерево",
+        "emoji": "🌳",
+        "imageQuery": "tree nature"
+    },
+    {
+        "word": "ШӨП",
+        "translation": "шөп — трава",
+        "emoji": "🌿",
+        "imageQuery": "grass green"
+    },
+    {
+        "word": "ҚҰС",
+        "translation": "құс — птица",
+        "emoji": "🐦",
+        "imageQuery": "bird flying"
+    },
+    {
+        "word": "БАЛЫҚ",
+        "translation": "балық — рыба",
+        "emoji": "🐟",
+        "imageQuery": "fish water"
+    },
+    {
+        "word": "АЮЛАР",
+        "translation": "аю — медведь",
+        "emoji": "🐻",
+        "imageQuery": "bear animal"
+    },
+    {
+        "word": "АРЫ­СТАН",
+        "translation": "арыстан — лев",
+        "emoji": "🦁",
+        "imageQuery": "lion animal"
+    },
+    {
+        "word": "ПІЛДЕР",
+        "translation": "піл — слон",
+        "emoji": "🐘",
+        "imageQuery": "elephant animal"
+    },
+    {
+        "word": "МАЙМЫЛ",
+        "translation": "маймыл — обезьяна",
+        "emoji": "🐒",
+        "imageQuery": "monkey animal"
+    },
+    {
+        "word": "ҚОЯН",
+        "translation": "қоян — заяц",
+        "emoji": "🐇",
+        "imageQuery": "rabbit hare"
+    },
+    {
+        "word": "ТЫШҚАН",
+        "translation": "тышқан — мышь",
+        "emoji": "🐭",
+        "imageQuery": "mouse rodent"
+    },
+    {
+        "word": "ЖЫДАН",
+        "translation": "жылан — змея",
+        "emoji": "🐍",
+        "imageQuery": "snake reptile"
+    },
+    {
+        "word": "БАҚА",
+        "translation": "бақа — лягушка",
+        "emoji": "🐸",
+        "imageQuery": "frog amphibian"
+    },
+    {
+        "word": "ҚАСҚЫР",
+        "translation": "қасқыр — волк",
+        "emoji": "🐺",
+        "imageQuery": "wolf animal"
+    },
+    {
+        "word": "ТҮЛКІ",
+        "translation": "түлкі — лиса",
+        "emoji": "🦊",
+        "imageQuery": "fox animal"
+    },
+    {
+        "word": "ДЕМАЛЫС",
+        "translation": "демалыс — отдых / выходной",
+        "emoji": "🏖️",
+        "imageQuery": "rest vacation"
+    },
+    {
+        "word": "САЯХАТ",
+        "translation": "саяхат — путешествие",
+        "emoji": "✈️",
+        "imageQuery": "travel journey"
+    },
+    {
+        "word": "ДОСТЫҚ",
+        "translation": "достық — дружба",
+        "emoji": "🤝",
+        "imageQuery": "friendship friends"
+    },
+    {
+        "word": "ДОС",
+        "translation": "дос — друг",
+        "emoji": "👫",
+        "imageQuery": "friend together"
+    },
+    {
+        "word": "СЫЙЛЫҚ",
+        "translation": "сыйлық — подарок",
+        "emoji": "🎁",
+        "imageQuery": "gift present"
+    },
+    {
+        "word": "МЕЙРАМ",
+        "translation": "мейрам — праздник",
+        "emoji": "🎉",
+        "imageQuery": "holiday celebration"
+    },
+    {
+        "word": "АЛТЫН",
+        "translation": "алтын — золото",
+        "emoji": "🥇",
+        "imageQuery": "gold metal"
+    },
+    {
+        "word": "АЙРАН",
+        "translation": "айран — кефир",
+        "emoji": "🥛",
+        "imageQuery": "kefir drink"
+    },
+    {
+        "word": "БАТЫР",
+        "translation": "батыр — герой",
+        "emoji": "🦸",
+        "imageQuery": "warrior hero"
+    },
+    {
+        "word": "БЕСІК",
+        "translation": "бесік — колыбель",
+        "emoji": "👶",
+        "imageQuery": "wooden cradle"
+    },
+    {
+        "word": "БІЛІМ",
+        "translation": "білім — знания",
+        "emoji": "📚",
+        "imageQuery": "knowledge books"
+    },
+    {
+        "word": "БОЛАТ",
+        "translation": "болат — сталь",
+        "emoji": "⚔️",
+        "imageQuery": "steel metal"
+    },
+    {
+        "word": "БАҚЫТ",
+        "translation": "бақыт — счастье",
+        "emoji": "🌟",
+        "imageQuery": "happiness joy"
+    },
+    {
+        "word": "БҰЛАН",
+        "translation": "бұлан — лось",
+        "emoji": "🦌",
+        "imageQuery": "moose animal"
+    },
+    {
+        "word": "ДАРЫН",
+        "translation": "дарын — талант",
+        "emoji": "🎭",
+        "imageQuery": "talent skill"
+    },
+    {
+        "word": "ДАУЫС",
+        "translation": "дауыс — голос",
+        "emoji": "🗣️",
+        "imageQuery": "human voice"
+    },
+    {
+        "word": "ДҮНИЕ",
+        "translation": "дүние — мир",
+        "emoji": "🌍",
+        "imageQuery": "world globe"
+    },
+    {
+        "word": "ДҮКЕН",
+        "translation": "дүкен — магазин",
+        "emoji": "🏪",
+        "imageQuery": "store shop"
+    },
+    {
+        "word": "ЖАРЫҚ",
+        "translation": "жарық — свет",
+        "emoji": "💡",
+        "imageQuery": "bright light"
+    },
+    {
+        "word": "ЖАУЫН",
+        "translation": "жауын — дождь",
+        "emoji": "🌧️",
+        "imageQuery": "rain weather"
+    },
+    {
+        "word": "ЖЫЛҚЫ",
+        "translation": "жылқы — лошадь",
+        "emoji": "🐎",
+        "imageQuery": "horse animal"
+    },
+    {
+        "word": "ЖЫРАУ",
+        "translation": "жырау — сказитель",
+        "emoji": "🪕",
+        "imageQuery": "traditional singer"
+    },
+    {
+        "word": "ЗЕРДЕ",
+        "translation": "зерде — память / интеллект",
+        "emoji": "🧠",
+        "imageQuery": "mind memory"
+    },
+    {
+        "word": "ЗАУЫТ",
+        "translation": "зауыт — завод",
+        "emoji": "🏭",
+        "imageQuery": "factory plant"
+    },
+    {
+        "word": "КЕЙІН",
+        "translation": "кейін — потом / после",
+        "emoji": "⏳",
+        "imageQuery": "later time"
+    },
+    {
+        "word": "КҮЗЕТ",
+        "translation": "күзет — охрана",
+        "emoji": "🛡️",
+        "imageQuery": "security guard"
+    },
+    {
+        "word": "КҮЛКІ",
+        "translation": "күлкі — смех",
+        "emoji": "😂",
+        "imageQuery": "laughing face"
+    },
+    {
+        "word": "КЕНЕТ",
+        "translation": "кенет — внезапно",
+        "emoji": "⚡",
+        "imageQuery": "sudden surprise"
+    },
+    {
+        "word": "КӨПІР",
+        "translation": "көпір — мост",
+        "emoji": "🌉",
+        "imageQuery": "bridge structure"
+    },
+    {
+        "word": "ҚАЗАҚ",
+        "translation": "қазақ — казах",
+        "emoji": "🇰🇿",
+        "imageQuery": "kazakhstan culture"
+    },
+    {
+        "word": "ҚЫМЫЗ",
+        "translation": "қымыз — кумыс",
+        "emoji": "🍶",
+        "imageQuery": "kumis drink"
+    },
+    {
+        "word": "МАДАҚ",
+        "translation": "мадақ — похвала",
+        "emoji": "👏",
+        "imageQuery": "praise applause"
+    },
+    {
+        "word": "МІНЕЗ",
+        "translation": "мінез — характер",
+        "emoji": "👤",
+        "imageQuery": "character personality"
+    },
+    {
+        "word": "МҰРАТ",
+        "translation": "мұрат — цель / идеал",
+        "emoji": "🎯",
+        "imageQuery": "goal target"
+    },
+    {
+        "word": "НАЗАР",
+        "translation": "назар — внимание",
+        "emoji": "👁️",
+        "imageQuery": "attention focus"
+    },
+    {
+        "word": "НАРЫҚ",
+        "translation": "нарық — рынок",
+        "emoji": "📈",
+        "imageQuery": "market economy"
+    },
+    {
+        "word": "НҰРЛЫ",
+        "translation": "нұрлы — светлый",
+        "emoji": "✨",
+        "imageQuery": "radiant light"
+    },
+    {
+        "word": "ӨРЛЕУ",
+        "translation": "өрлеу — развитие / подъем",
+        "emoji": "🚀",
+        "imageQuery": "growth ascent"
+    },
+    {
+        "word": "САБЫР",
+        "translation": "сабыр — терпение",
+        "emoji": "🧘",
+        "imageQuery": "patience calm"
+    },
+    {
+        "word": "СЕЗІМ",
+        "translation": "сезім — чувство",
+        "emoji": "❤️",
+        "imageQuery": "feeling emotion"
+    },
+    {
+        "word": "СЕНІМ",
+        "translation": "сенім — доверие",
+        "emoji": "🤝",
+        "imageQuery": "trust belief"
+    },
+    {
+        "word": "СЕРІК",
+        "translation": "серік — партнер",
+        "emoji": "🧑‍🤝‍🧑",
+        "imageQuery": "partner companion"
+    },
+    {
+        "word": "СОРПА",
+        "translation": "сорпа — бульон",
+        "emoji": "🥣",
+        "imageQuery": "soup broth"
+    },
+    {
+        "word": "ТАРИХ",
+        "translation": "тарих — история",
+        "emoji": "📜",
+        "imageQuery": "history ancient"
+    },
+    {
+        "word": "ТАУЛЫ",
+        "translation": "таулы — гористый",
+        "emoji": "⛰️",
+        "imageQuery": "mountainous landscape"
+    },
+    {
+        "word": "ТІЛЕК",
+        "translation": "тілек — пожелание",
+        "emoji": "🙏",
+        "imageQuery": "wish desire"
+    },
+    {
+        "word": "ТУҒАН",
+        "translation": "туған — родной",
+        "emoji": "🏡",
+        "imageQuery": "born native"
+    },
+    {
+        "word": "ТҮЙМЕ",
+        "translation": "түйме — пуговица",
+        "emoji": "🔘",
+        "imageQuery": "button object"
+    },
+    {
+        "word": "ШАПАН",
+        "translation": "шапан — чапан",
+        "emoji": "🧥",
+        "imageQuery": "traditional robe kazakh"
+    },
+    {
+        "word": "ШЕШЕН",
+        "translation": "шешен — оратор",
+        "emoji": "🗣️",
+        "imageQuery": "public speaker"
+    },
+    {
+        "word": "ЫРҒАҚ",
+        "translation": "ырғақ — ритм",
+        "emoji": "🥁",
+        "imageQuery": "rhythm beat"
+    },
+    {
+        "word": "ЫҚПАЛ",
+        "translation": "ықпал — влияние",
+        "emoji": "🧲",
+        "imageQuery": "influence impact"
+    },
+    {
+        "word": "ДОМБЫРА",
+        "translation": "домбыра — домбра (инструмент)",
+        "emoji": "🎸",
+        "imageQuery": "dombra kazakh instrument"
+    },
+    {
+        "word": "КИІЗ ҮЙ",
+        "translation": "киіз үй — юрта",
+        "emoji": "🏕️",
+        "imageQuery": "yurt kazakh"
+    },
+    {
+        "word": "БЕШПАРМАҚ",
+        "translation": "бешпармақ — бешбармак",
+        "emoji": "🍖",
+        "imageQuery": "beshbarmak kazakh food"
+    },
+    {
+        "word": "БАУРСАК",
+        "translation": "баурсақ — баурсак",
+        "emoji": "🍩",
+        "imageQuery": "baursak kazakh bread"
+    },
+    {
+        "word": "АСТАНА",
+        "translation": "астана — столица",
+        "emoji": "🏙️",
+        "imageQuery": "astana capital"
+    },
+    {
+        "word": "АЛМАТЫ",
+        "translation": "алматы — Алматы",
+        "emoji": "🌆",
+        "imageQuery": "almaty city"
+    },
+    {
+        "word": "МЕЙІРІМ",
+        "translation": "мейірім — доброта",
+        "emoji": "💝",
+        "imageQuery": "kindness care"
+    },
+    {
+        "word": "ӨМІР",
+        "translation": "өмір — жизнь",
+        "emoji": "🌱",
+        "imageQuery": "life living"
+    },
+    {
+        "word": "ЖҮРЕК",
+        "translation": "жүрек — сердце",
+        "emoji": "❤️",
+        "imageQuery": "heart love"
+    },
+    {
+        "word": "АРМАНДАР",
+        "translation": "арман — мечта",
+        "emoji": "💭",
+        "imageQuery": "dream wish"
+    },
+    {
+        "word": "ЕРКІН",
+        "translation": "еркін — свободный",
+        "emoji": "🕊️",
+        "imageQuery": "freedom free"
+    },
+    {
+        "word": "КҮЛІМДЕУ",
+        "translation": "күлімдеу — улыбаться",
+        "emoji": "😊",
+        "imageQuery": "smile happy"
+    },
+    {
+        "word": "ЖЫЛЫ",
+        "translation": "жылы — тёплый",
+        "emoji": "🌡️",
+        "imageQuery": "warm heat"
+    },
+    {
+        "word": "СУЫҚ",
+        "translation": "суық — холодный",
+        "emoji": "🥶",
+        "imageQuery": "cold winter"
+    },
+    {
+        "word": "ҮЛКЕН",
+        "translation": "үлкен — большой",
+        "emoji": "🏔️",
+        "imageQuery": "big large"
+    },
+    {
+        "word": "КІШІ",
+        "translation": "кіші — маленький",
+        "emoji": "🔹",
+        "imageQuery": "small little"
+    },
+    {
+        "word": "ЖАҢА",
+        "translation": "жаңа — новый",
+        "emoji": "✨",
+        "imageQuery": "new fresh"
+    },
+    {
+        "word": "ЕСКІ",
+        "translation": "ескі — старый",
+        "emoji": "🏚️",
+        "imageQuery": "old ancient"
+    },
+    {
+        "word": "ТАМАША",
+        "translation": "тамаша — отлично / зрелище",
+        "emoji": "🤩",
+        "imageQuery": "amazing spectacular"
+    },
+    {
+        "word": "РАХМЕТ",
+        "translation": "рахмет — спасибо",
+        "emoji": "🙏",
+        "imageQuery": "thank you gratitude"
+    },
+    {
+        "word": "СӘЛЕМ",
+        "translation": "сәлем — привет",
+        "emoji": "👋",
+        "imageQuery": "hello greeting"
+    },
+    {
+        "word": "ҚОШ",
+        "translation": "қош — пока / прощай",
+        "emoji": "👋",
+        "imageQuery": "goodbye farewell"
+    },
+    {
+        "word": "ИӘ",
+        "translation": "иә — да",
+        "emoji": "✅",
+        "imageQuery": "yes agree"
+    },
+    {
+        "word": "ЖОҚ",
+        "translation": "жоқ — нет",
+        "emoji": "❌",
+        "imageQuery": "no disagree"
+    },
+    {
+        "word": "ҚАСЫҚ",
+        "translation": "қасық — ложка",
+        "emoji": "🥄",
+        "imageQuery": "spoon kitchen"
+    },
+    {
+        "word": "ТАБАҚ",
+        "translation": "табақ — тарелка",
+        "emoji": "🍽️",
+        "imageQuery": "plate dish"
+    },
+    {
+        "word": "КЕСЕ",
+        "translation": "кесе — пиала / кружка",
+        "emoji": "🍵",
+        "imageQuery": "bowl cup"
+    },
+    {
+        "word": "ПЫШАҚ",
+        "translation": "пышақ — нож",
+        "emoji": "🔪",
+        "imageQuery": "kitchen knife"
+    },
+    {
+        "word": "ШӘЙНЕК",
+        "translation": "шәйнек — чайник",
+        "emoji": "🫖",
+        "imageQuery": "teapot kettle"
+    },
+    {
+        "word": "САМАУЫР",
+        "translation": "самауыр — самовар",
+        "emoji": "☕",
+        "imageQuery": "samovar kazakh"
+    },
+    {
+        "word": "БАУЫР",
+        "translation": "бауыр — родственник / печень",
+        "emoji": "🫂",
+        "imageQuery": "family close"
+    },
+    {
+        "word": "ІНІМ",
+        "translation": "іні — младший брат",
+        "emoji": "👦",
+        "imageQuery": "little brother"
+    },
+    {
+        "word": "СІҢЛІ",
+        "translation": "сіңлі — младшая сестра",
+        "emoji": "👧",
+        "imageQuery": "little sister"
+    },
+    {
+        "word": "НАҒАШЫ",
+        "translation": "нағашы — дядя (мамин брат)",
+        "emoji": "👨",
+        "imageQuery": "uncle family"
+    },
+    {
+        "word": "ЖЕҢГЕ",
+        "translation": "жеңге — невестка",
+        "emoji": "👩",
+        "imageQuery": "sister in law"
+    },
+    {
+        "word": "НЕМЕРЕ",
+        "translation": "немере — внук / внучка",
+        "emoji": "👶",
+        "imageQuery": "grandchild baby"
+    },
+    {
+        "word": "БАЛА",
+        "translation": "бала — ребёнок",
+        "emoji": "👶",
+        "imageQuery": "child kid"
+    },
+    {
+        "word": "ЖІГІТ",
+        "translation": "жігіт — парень / молодец",
+        "emoji": "🧑",
+        "imageQuery": "young man"
+    },
+    {
+        "word": "ҚЫЗДАР",
+        "translation": "қыздар — девушки",
+        "emoji": "👧",
+        "imageQuery": "girls young"
+    },
+    {
+        "word": "АДАМ",
+        "translation": "адам — человек",
+        "emoji": "🧑",
+        "imageQuery": "person human"
+    },
+    {
+        "word": "ХАЛЫҚ",
+        "translation": "халық — народ",
+        "emoji": "👥",
+        "imageQuery": "people crowd"
+    },
+    {
+        "word": "ОТБАСЫ",
+        "translation": "отбасы — семья",
+        "emoji": "👨‍👩‍👧‍👦",
+        "imageQuery": "family together"
+    },
+    {
+        "word": "ТУЫСҚАН",
+        "translation": "туысқан — родственник",
+        "emoji": "👪",
+        "imageQuery": "relative family"
+    },
+    {
+        "word": "МҰРЫН",
+        "translation": "мұрын — нос",
+        "emoji": "👃",
+        "imageQuery": "nose face"
+    },
+    {
+        "word": "ТІРШІЛІК",
+        "translation": "тіршілік — жизнь",
+        "emoji": "🌱",
+        "imageQuery": "life nature"
+    },
+    {
+        "word": "ДЕНСАУЛЫҚ",
+        "translation": "денсаулық — здоровье",
+        "emoji": "💪",
+        "imageQuery": "health wellness"
+    },
+    {
+        "word": "ДЕНЕ",
+        "translation": "дене — тело",
+        "emoji": "🧍",
+        "imageQuery": "body human"
+    },
+    {
+        "word": "ЖҮРЕК",
+        "translation": "жүрек — сердце",
+        "emoji": "❤️",
+        "imageQuery": "heart organ"
+    },
+    {
+        "word": "БҰЛШЫҚ",
+        "translation": "бұлшық — мышца",
+        "emoji": "💪",
+        "imageQuery": "muscle strong"
+    },
+    {
+        "word": "СҮЙЕК",
+        "translation": "сүйек — кость",
+        "emoji": "🦴",
+        "imageQuery": "bone skeleton"
+    },
+    {
+        "word": "ТЕРі",
+        "translation": "тері — кожа",
+        "emoji": "🫶",
+        "imageQuery": "skin human"
+    },
+    {
+        "word": "АУРУ",
+        "translation": "ауру — болезнь / больной",
+        "emoji": "🤒",
+        "imageQuery": "sick illness"
+    },
+    {
+        "word": "ДӘРІ",
+        "translation": "дәрі — лекарство",
+        "emoji": "💊",
+        "imageQuery": "medicine pill"
+    },
+    {
+        "word": "АУРУХАНА",
+        "translation": "аурухана — больница",
+        "emoji": "🏥",
+        "imageQuery": "hospital building"
+    },
+    {
+        "word": "ДӘРІХАНА",
+        "translation": "дәріхана — аптека",
+        "emoji": "💊",
+        "imageQuery": "pharmacy store"
+    },
+    {
+        "word": "АПТА",
+        "translation": "апта — неделя",
+        "emoji": "📅",
+        "imageQuery": "week calendar"
+    },
+    {
+        "word": "ЖЫЛ",
+        "translation": "жыл — год",
+        "emoji": "🗓️",
+        "imageQuery": "year calendar"
+    },
+    {
+        "word": "САҒАТ",
+        "translation": "сағат — час / часы",
+        "emoji": "⏰",
+        "imageQuery": "clock hour"
+    },
+    {
+        "word": "МИНУТ",
+        "translation": "минут — минута",
+        "emoji": "⏱️",
+        "imageQuery": "minute timer"
+    },
+    {
+        "word": "БҮГІН",
+        "translation": "бүгін — сегодня",
+        "emoji": "📅",
+        "imageQuery": "today date"
+    },
+    {
+        "word": "ЕРТЕҢ",
+        "translation": "ертең — завтра",
+        "emoji": "🌅",
+        "imageQuery": "tomorrow morning"
+    },
+    {
+        "word": "КЕШЕ",
+        "translation": "кеше — вчера",
+        "emoji": "📆",
+        "imageQuery": "yesterday past"
+    },
+    {
+        "word": "ҚАЗІР",
+        "translation": "қазір — сейчас",
+        "emoji": "⚡",
+        "imageQuery": "now present"
+    },
+    {
+        "word": "ДҮЙСЕНБІ",
+        "translation": "дүйсенбі — понедельник",
+        "emoji": "1️⃣",
+        "imageQuery": "monday weekday"
+    },
+    {
+        "word": "СЕЙСЕНБІ",
+        "translation": "сейсенбі — вторник",
+        "emoji": "2️⃣",
+        "imageQuery": "tuesday weekday"
+    },
+    {
+        "word": "СӘРСЕНБІ",
+        "translation": "сәрсенбі — среда",
+        "emoji": "3️⃣",
+        "imageQuery": "wednesday weekday"
+    },
+    {
+        "word": "БЕЙСЕНБІ",
+        "translation": "бейсенбі — четверг",
+        "emoji": "4️⃣",
+        "imageQuery": "thursday weekday"
+    },
+    {
+        "word": "ЖҰМА",
+        "translation": "жұма — пятница",
+        "emoji": "5️⃣",
+        "imageQuery": "friday weekday"
+    },
+    {
+        "word": "СЕНБІ",
+        "translation": "сенбі — суббота",
+        "emoji": "6️⃣",
+        "imageQuery": "saturday weekend"
+    },
+    {
+        "word": "ЖЕКСЕНБІ",
+        "translation": "жексенбі — воскресенье",
+        "emoji": "7️⃣",
+        "imageQuery": "sunday weekend"
+    },
+    {
+        "word": "ҚАҢТАР",
+        "translation": "қаңтар — январь",
+        "emoji": "❄️",
+        "imageQuery": "january winter"
+    },
+    {
+        "word": "АҚПАН",
+        "translation": "ақпан — февраль",
+        "emoji": "❄️",
+        "imageQuery": "february winter"
+    },
+    {
+        "word": "НАУРЫЗ",
+        "translation": "наурыз — март / Наурыз",
+        "emoji": "🌸",
+        "imageQuery": "nauryz spring holiday"
+    },
+    {
+        "word": "СӘУІР",
+        "translation": "сәуір — апрель",
+        "emoji": "🌷",
+        "imageQuery": "april spring"
+    },
+    {
+        "word": "МАМЫР",
+        "translation": "мамыр — май",
+        "emoji": "🌼",
+        "imageQuery": "may spring flowers"
+    },
+    {
+        "word": "МАУСЫМ",
+        "translation": "маусым — июнь",
+        "emoji": "☀️",
+        "imageQuery": "june summer"
+    },
+    {
+        "word": "ШІЛДЕ",
+        "translation": "шілде — июль",
+        "emoji": "🌞",
+        "imageQuery": "july summer hot"
+    },
+    {
+        "word": "ТАМЫЗ",
+        "translation": "тамыз — август",
+        "emoji": "🌻",
+        "imageQuery": "august summer"
+    },
+    {
+        "word": "ҚЫРКҮЙЕК",
+        "translation": "қыркүйек — сентябрь",
+        "emoji": "🍂",
+        "imageQuery": "september autumn"
+    },
+    {
+        "word": "ҚАЗАН",
+        "translation": "қазан — октябрь / казан",
+        "emoji": "🍁",
+        "imageQuery": "october autumn"
+    },
+    {
+        "word": "ҚАРАША",
+        "translation": "қараша — ноябрь",
+        "emoji": "🍂",
+        "imageQuery": "november autumn"
+    },
+    {
+        "word": "ЖЕЛТОҚСАН",
+        "translation": "желтоқсан — декабрь",
+        "emoji": "🎄",
+        "imageQuery": "december winter"
+    },
+    {
+        "word": "КӨК",
+        "translation": "көк — небо / синий",
+        "emoji": "🔵",
+        "imageQuery": "sky blue"
+    },
+    {
+        "word": "ЖАЗЫҚ",
+        "translation": "жазық — равнина",
+        "emoji": "🌾",
+        "imageQuery": "plain flatland"
+    },
+    {
+        "word": "ШӨЛЕЙТ",
+        "translation": "шөлейт — пустыня",
+        "emoji": "🏜️",
+        "imageQuery": "desert sand"
+    },
+    {
+        "word": "ЖАҒАЛАУ",
+        "translation": "жағалау — берег",
+        "emoji": "🏖️",
+        "imageQuery": "shore beach"
+    },
+    {
+        "word": "МҰХИТ",
+        "translation": "мұхит — океан",
+        "emoji": "🌊",
+        "imageQuery": "ocean sea"
+    },
+    {
+        "word": "ТЕҢІЗ",
+        "translation": "теңіз — море",
+        "emoji": "🌊",
+        "imageQuery": "sea water"
+    },
+    {
+        "word": "АСПАН",
+        "translation": "аспан — небо",
+        "emoji": "🌤️",
+        "imageQuery": "sky clouds"
+    },
+    {
+        "word": "БҰЛТ",
+        "translation": "бұлт — облако",
+        "emoji": "☁️",
+        "imageQuery": "cloud sky"
+    },
+    {
+        "word": "НАЙЗАҒАЙ",
+        "translation": "найзағай — молния",
+        "emoji": "⚡",
+        "imageQuery": "lightning storm"
+    },
+    {
+        "word": "КҮНГЕЙ",
+        "translation": "күнгей — солнечная сторона",
+        "emoji": "☀️",
+        "imageQuery": "sunny side"
+    },
+    {
+        "word": "БОРАН",
+        "translation": "боран — буран / метель",
+        "emoji": "🌨️",
+        "imageQuery": "blizzard snow storm"
+    },
+    {
+        "word": "МҰЗДАҚ",
+        "translation": "мұздақ — ледник",
+        "emoji": "🧊",
+        "imageQuery": "glacier ice"
+    },
+    {
+        "word": "МҰЗ",
+        "translation": "мұз — лёд",
+        "emoji": "🧊",
+        "imageQuery": "ice cold"
+    },
+    {
+        "word": "МАТЕМАТИКА",
+        "translation": "математика — математика",
+        "emoji": "➕",
+        "imageQuery": "math numbers"
+    },
+    {
+        "word": "ТАРИХ",
+        "translation": "тарих — история",
+        "emoji": "📜",
+        "imageQuery": "history ancient"
+    },
+    {
+        "word": "ХИМИЯ",
+        "translation": "химия — химия",
+        "emoji": "⚗️",
+        "imageQuery": "chemistry lab"
+    },
+    {
+        "word": "ФИЗИКА",
+        "translation": "физика — физика",
+        "emoji": "⚛️",
+        "imageQuery": "physics science"
+    },
+    {
+        "word": "БИОЛОГИЯ",
+        "translation": "биология — биология",
+        "emoji": "🧬",
+        "imageQuery": "biology science"
+    },
+    {
+        "word": "ТІПІЛ",
+        "translation": "тіл — язык",
+        "emoji": "🗣️",
+        "imageQuery": "language speech"
+    },
+    {
+        "word": "ГЕОГРАФИЯ",
+        "translation": "география — география",
+        "emoji": "🌍",
+        "imageQuery": "geography map"
+    },
+    {
+        "word": "МУЗЫКА",
+        "translation": "музыка — музыка",
+        "emoji": "🎵",
+        "imageQuery": "music notes"
+    },
+    {
+        "word": "СПОРТ",
+        "translation": "спорт — спорт",
+        "emoji": "⚽",
+        "imageQuery": "sport activity"
+    },
+    {
+        "word": "САБАҚ",
+        "translation": "сабақ — урок / занятие",
+        "emoji": "📝",
+        "imageQuery": "lesson class"
+    },
+    {
+        "word": "ЕМТИХАН",
+        "translation": "емтихан — экзамен",
+        "emoji": "📝",
+        "imageQuery": "exam test"
+    },
+    {
+        "word": "БАҒАЛАУ",
+        "translation": "бағалау — оценивание",
+        "emoji": "⭐",
+        "imageQuery": "grade evaluation"
+    },
+    {
+        "word": "ОҚУШЫ",
+        "translation": "оқушы — ученик",
+        "emoji": "🧑‍🎓",
+        "imageQuery": "student school"
+    },
+    {
+        "word": "СТУДЕНТ",
+        "translation": "студент — студент",
+        "emoji": "🎓",
+        "imageQuery": "student university"
+    },
+    {
+        "word": "УНИВЕРСИТЕТ",
+        "translation": "университет — университет",
+        "emoji": "🎓",
+        "imageQuery": "university building"
+    },
+    {
+        "word": "ДИКТАНТ",
+        "translation": "диктант — диктант",
+        "emoji": "✏️",
+        "imageQuery": "dictation writing"
+    },
+    {
+        "word": "ЖАЗУ",
+        "translation": "жазу — письмо / писать",
+        "emoji": "✍️",
+        "imageQuery": "writing pen"
+    },
+    {
+        "word": "ОҚУ",
+        "translation": "оқу — чтение / учёба",
+        "emoji": "📖",
+        "imageQuery": "reading book"
+    },
+    {
+        "word": "ЕСЕП",
+        "translation": "есеп — задача / счёт",
+        "emoji": "🔢",
+        "imageQuery": "math problem"
+    },
+    {
+        "word": "МЫСАЛ",
+        "translation": "мысал — пример / басня",
+        "emoji": "📝",
+        "imageQuery": "example fable"
+    },
+    {
+        "word": "ЖАУАПКЕР",
+        "translation": "жауапкер — ответственный",
+        "emoji": "🤝",
+        "imageQuery": "responsible person"
+    },
+    {
+        "word": "ЖЕҢІС",
+        "translation": "жеңіс — победа",
+        "emoji": "🏆",
+        "imageQuery": "victory win"
+    },
+    {
+        "word": "МАРАПАТ",
+        "translation": "марапат — награда",
+        "emoji": "🥇",
+        "imageQuery": "award prize"
+    },
+    {
+        "word": "БЕЛГІ",
+        "translation": "белгі — знак / отметка",
+        "emoji": "✅",
+        "imageQuery": "mark sign"
+    },
+    {
+        "word": "МАЗМҰН",
+        "translation": "мазмұн — содержание",
+        "emoji": "📋",
+        "imageQuery": "content summary"
+    },
+    {
+        "word": "ТАПСЫРМА",
+        "translation": "тапсырма — задание",
+        "emoji": "📌",
+        "imageQuery": "task assignment"
+    },
+    {
+        "word": "ЕРЕЖЕГЕ",
+        "translation": "ереже — правило",
+        "emoji": "📏",
+        "imageQuery": "rules regulations"
+    },
+    {
+        "word": "ЖАТТЫҒУ",
+        "translation": "жаттығу — упражнение",
+        "emoji": "🏋️",
+        "imageQuery": "exercise workout"
+    },
+    {
+        "word": "СЕКІРУ",
+        "translation": "секіру — прыгать",
+        "emoji": "🤸",
+        "imageQuery": "jump jumping"
+    },
+    {
+        "word": "ЖҮГІРУ",
+        "translation": "жүгіру — бегать",
+        "emoji": "🏃",
+        "imageQuery": "running sport"
+    },
+    {
+        "word": "ЖҮЗУ",
+        "translation": "жүзу — плавать",
+        "emoji": "🏊",
+        "imageQuery": "swimming pool"
+    },
+    {
+        "word": "ОЙНАУ",
+        "translation": "ойнау — играть",
+        "emoji": "🎮",
+        "imageQuery": "playing game"
+    },
+    {
+        "word": "АЙТУ",
+        "translation": "айту — говорить",
+        "emoji": "🗣️",
+        "imageQuery": "speaking talking"
+    },
+    {
+        "word": "ТЫҢДАУ",
+        "translation": "тыңдау — слушать",
+        "emoji": "👂",
+        "imageQuery": "listening ear"
+    },
+    {
+        "word": "КӨРУ",
+        "translation": "көру — видеть",
+        "emoji": "👁️",
+        "imageQuery": "seeing eye"
+    },
+    {
+        "word": "ҰСТАУ",
+        "translation": "ұстау — держать",
+        "emoji": "✋",
+        "imageQuery": "holding hand"
+    },
+    {
+        "word": "БЕРУ",
+        "translation": "беру — давать",
+        "emoji": "🤲",
+        "imageQuery": "giving hands"
+    },
+    {
+        "word": "АЛУ",
+        "translation": "алу — брать / получать",
+        "emoji": "🙌",
+        "imageQuery": "taking receiving"
+    },
+    {
+        "word": "БАРУ",
+        "translation": "бару — идти / ехать",
+        "emoji": "🚶",
+        "imageQuery": "going walking"
+    },
+    {
+        "word": "КЕЛУ",
+        "translation": "келу — приходить",
+        "emoji": "🚶",
+        "imageQuery": "coming arrival"
+    },
+    {
+        "word": "ТҰРУ",
+        "translation": "тұру — стоять / жить",
+        "emoji": "🧍",
+        "imageQuery": "standing person"
+    },
+    {
+        "word": "ОТЫРУ",
+        "translation": "отыру — сидеть",
+        "emoji": "🪑",
+        "imageQuery": "sitting chair"
+    },
+    {
+        "word": "ҰЙЫҚТАУ",
+        "translation": "ұйықтау — спать",
+        "emoji": "😴",
+        "imageQuery": "sleeping bed"
+    },
+    {
+        "word": "ТҰРУ",
+        "translation": "тұру — вставать",
+        "emoji": "🧍",
+        "imageQuery": "standing up"
+    },
+    {
+        "word": "ЖЕҢІЛ",
+        "translation": "жеңіл — лёгкий",
+        "emoji": "🪶",
+        "imageQuery": "light easy"
+    },
+    {
+        "word": "АУЫР",
+        "translation": "ауыр — тяжёлый / сложный",
+        "emoji": "🏋️",
+        "imageQuery": "heavy weight"
+    },
+    {
+        "word": "БИІК",
+        "translation": "биік — высокий",
+        "emoji": "🏔️",
+        "imageQuery": "tall high"
+    },
+    {
+        "word": "АЛАСА",
+        "translation": "аласа — низкий",
+        "emoji": "🔹",
+        "imageQuery": "low short"
+    },
+    {
+        "word": "ЖЫЛДАМ",
+        "translation": "жылдам — быстрый",
+        "emoji": "🚀",
+        "imageQuery": "fast speed"
+    },
+    {
+        "word": "БАЯУ",
+        "translation": "баяу — медленный",
+        "emoji": "🐢",
+        "imageQuery": "slow turtle"
+    },
+    {
+        "word": "ТАЗА",
+        "translation": "таза — чистый",
+        "emoji": "✨",
+        "imageQuery": "clean pure"
+    },
+    {
+        "word": "ЛАС",
+        "translation": "лас — грязный",
+        "emoji": "🤢",
+        "imageQuery": "dirty mud"
+    },
+    {
+        "word": "ТӘТТІ",
+        "translation": "тәтті — сладкий",
+        "emoji": "🍬",
+        "imageQuery": "sweet candy"
+    },
+    {
+        "word": "АЩЫ",
+        "translation": "ащы — горький / острый",
+        "emoji": "🌶️",
+        "imageQuery": "bitter spicy"
+    },
+    {
+        "word": "ТҰЩЫ",
+        "translation": "тұщы — пресный",
+        "emoji": "💧",
+        "imageQuery": "fresh water"
+    },
+    {
+        "word": "ҚЫШҚЫЛ",
+        "translation": "қышқыл — кислый",
+        "emoji": "🍋",
+        "imageQuery": "sour lemon"
+    },
+    {
+        "word": "ДӘМДІ",
+        "translation": "дәмді — вкусный",
+        "emoji": "😋",
+        "imageQuery": "delicious tasty"
+    },
+    {
+        "word": "ДӘМСІЗ",
+        "translation": "дәмсіз — невкусный",
+        "emoji": "😖",
+        "imageQuery": "tasteless food"
+    },
+    {
+        "word": "ЖАҚСЫ",
+        "translation": "жақсы — хорошо / хороший",
+        "emoji": "👍",
+        "imageQuery": "good positive"
+    },
+    {
+        "word": "ЖАМАН",
+        "translation": "жаман — плохо / плохой",
+        "emoji": "👎",
+        "imageQuery": "bad negative"
+    },
+    {
+        "word": "КЕРЕМЕТ",
+        "translation": "керемет — замечательный",
+        "emoji": "🤩",
+        "imageQuery": "wonderful amazing"
+    },
+    {
+        "word": "СҰЛУ",
+        "translation": "сұлу — красивый",
+        "emoji": "💎",
+        "imageQuery": "beautiful pretty"
+    },
+    {
+        "word": "ҰЯЛШАҚ",
+        "translation": "ұялшақ — стеснительный",
+        "emoji": "😊",
+        "imageQuery": "shy modest"
+    },
+    {
+        "word": "БАТЫЛ",
+        "translation": "батыл — смелый",
+        "emoji": "🦁",
+        "imageQuery": "brave bold"
+    },
+    {
+        "word": "МЕЙІРІМДІ",
+        "translation": "мейірімді — добрый",
+        "emoji": "💝",
+        "imageQuery": "kind gentle"
+    },
+    {
+        "word": "АҚЫЛДЫ",
+        "translation": "ақылды — умный",
+        "emoji": "🧠",
+        "imageQuery": "smart intelligent"
+    },
+    {
+        "word": "ЕҢБЕКҚОР",
+        "translation": "еңбекқор — трудолюбивый",
+        "emoji": "💪",
+        "imageQuery": "hardworking diligent"
+    },
+    {
+        "word": "ШАРШАҒАН",
+        "translation": "шаршаған — уставший",
+        "emoji": "😴",
+        "imageQuery": "tired exhausted"
+    },
+    {
+        "word": "ҚУАНЫШ",
+        "translation": "қуаныш — радость",
+        "emoji": "😊",
+        "imageQuery": "joy happiness"
+    },
+    {
+        "word": "ҚАЙҒЫ",
+        "translation": "қайғы — грусть / горе",
+        "emoji": "😢",
+        "imageQuery": "sadness grief"
+    },
+    {
+        "word": "АШУЛЫ",
+        "translation": "ашулы — злой",
+        "emoji": "😠",
+        "imageQuery": "angry mad"
+    },
+    {
+        "word": "ҚОРҚЫНЫШ",
+        "translation": "қорқыныш — страх",
+        "emoji": "😱",
+        "imageQuery": "fear scared"
+    },
+    {
+        "word": "ТАҢДАНЫШ",
+        "translation": "таңданыш — удивление",
+        "emoji": "😮",
+        "imageQuery": "surprise amazement"
+    },
+    {
+        "word": "СҮЙІСПЕНШІЛІК",
+        "translation": "сүйіспеншілік — любовь",
+        "emoji": "❤️",
+        "imageQuery": "love heart"
+    },
+    {
+        "word": "ҮМІТ",
+        "translation": "үміт — надежда",
+        "emoji": "🌟",
+        "imageQuery": "hope wish"
+    },
+    {
+        "word": "СЕНІМ",
+        "translation": "сенім — вера / доверие",
+        "emoji": "🤝",
+        "imageQuery": "faith trust"
+    },
+    {
+        "word": "АРМАН",
+        "translation": "арман — мечта",
+        "emoji": "💭",
+        "imageQuery": "dream aspiration"
+    },
+    {
+        "word": "МАҚСАТ",
+        "translation": "мақсат — цель",
+        "emoji": "🎯",
+        "imageQuery": "goal purpose"
+    },
+    {
+        "word": "ТАБЫС",
+        "translation": "табыс — успех / доход",
+        "emoji": "🏆",
+        "imageQuery": "success achievement"
+    },
+    {
+        "word": "БАҚЫТ",
+        "translation": "бақыт — счастье",
+        "emoji": "🌟",
+        "imageQuery": "happiness luck"
+    },
+    {
+        "word": "ЫНТЫМАҚ",
+        "translation": "ынтымақ — единство",
+        "emoji": "🤝",
+        "imageQuery": "unity together"
+    },
+    {
+        "word": "БЕЙБІТШІЛІК",
+        "translation": "бейбітшілік — мир (peace)",
+        "emoji": "☮️",
+        "imageQuery": "peace harmony"
+    },
+    {
+        "word": "ҚОНАҚ",
+        "translation": "қонақ — гость",
+        "emoji": "🤗",
+        "imageQuery": "guest visitor"
+    },
+    {
+        "word": "ҚОНАҚ ҮЙ",
+        "translation": "қонақ үй — гостиница",
+        "emoji": "🏨",
+        "imageQuery": "hotel building"
+    },
+    {
+        "word": "БАЗАР",
+        "translation": "базар — рынок / базар",
+        "emoji": "🛒",
+        "imageQuery": "market bazaar"
+    },
+    {
+        "word": "ДҮКЕН",
+        "translation": "дүкен — магазин",
+        "emoji": "🏪",
+        "imageQuery": "shop store"
+    },
+    {
+        "word": "АҚША",
+        "translation": "ақша — деньги",
+        "emoji": "💵",
+        "imageQuery": "money cash"
+    },
+    {
+        "word": "ТЕҢГЕ",
+        "translation": "теңге — тенге",
+        "emoji": "💴",
+        "imageQuery": "tenge kazakhstan money"
+    },
+    {
+        "word": "БАЖ",
+        "translation": "баж — налог / пошлина",
+        "emoji": "📊",
+        "imageQuery": "tax fee"
+    },
+    {
+        "word": "МАМАНДЫҚ",
+        "translation": "мамандық — профессия",
+        "emoji": "👷",
+        "imageQuery": "profession career"
+    },
+    {
+        "word": "ЖҰМЫС",
+        "translation": "жұмыс — работа",
+        "emoji": "💼",
+        "imageQuery": "work job"
+    },
+    {
+        "word": "ЗАУЫТ",
+        "translation": "зауыт — завод",
+        "emoji": "🏭",
+        "imageQuery": "factory plant"
+    },
+    {
+        "word": "КЕҢСЕ",
+        "translation": "кеңсе — офис",
+        "emoji": "🏢",
+        "imageQuery": "office building"
+    },
+    {
+        "word": "ТЕАТР",
+        "translation": "театр — театр",
+        "emoji": "🎭",
+        "imageQuery": "theater stage"
+    },
+    {
+        "word": "КИНО",
+        "translation": "кино — кино",
+        "emoji": "🎬",
+        "imageQuery": "cinema movie"
+    },
+    {
+        "word": "КІТАПХАНА",
+        "translation": "кітапхана — библиотека",
+        "emoji": "📚",
+        "imageQuery": "library books"
+    },
+    {
+        "word": "МҰРАЖАЙ",
+        "translation": "мұражай — музей",
+        "emoji": "🏛️",
+        "imageQuery": "museum history"
+    },
+    {
+        "word": "СТАДИОН",
+        "translation": "стадион — стадион",
+        "emoji": "🏟️",
+        "imageQuery": "stadium sport"
+    },
+    {
+        "word": "БАССЕЙН",
+        "translation": "бассейн — бассейн",
+        "emoji": "🏊",
+        "imageQuery": "swimming pool"
+    },
+    {
+        "word": "САЯБАҚ",
+        "translation": "саябақ — парк",
+        "emoji": "🌳",
+        "imageQuery": "park nature"
+    },
+    {
+        "word": "КӨШЕСі",
+        "translation": "көше — улица",
+        "emoji": "🛣️",
+        "imageQuery": "street road"
+    },
+    {
+        "word": "АЛАҢ",
+        "translation": "алаң — площадь",
+        "emoji": "🏙️",
+        "imageQuery": "square plaza"
+    },
+    {
+        "word": "ДАЛА",
+        "translation": "дала — степь / поле",
+        "emoji": "🌾",
+        "imageQuery": "steppe field"
+    },
+    {
+        "word": "АУЫЛ",
+        "translation": "ауыл — деревня / аул",
+        "emoji": "🏘️",
+        "imageQuery": "village aul"
+    },
+    {
+        "word": "ҚАЛА",
+        "translation": "қала — город",
+        "emoji": "🏙️",
+        "imageQuery": "city urban"
+    },
+    {
+        "word": "ЕЛОРДА",
+        "translation": "елорда — столица",
+        "emoji": "🏛️",
+        "imageQuery": "capital city"
+    },
+    {
+        "word": "МЕМЛЕКЕТ",
+        "translation": "мемлекет — государство",
+        "emoji": "🏛️",
+        "imageQuery": "state government"
+    },
+    {
+        "word": "ЕЛ",
+        "translation": "ел — страна / народ",
+        "emoji": "🗺️",
+        "imageQuery": "country nation"
+    },
+    {
+        "word": "ТУ",
+        "translation": "ту — флаг",
+        "emoji": "🚩",
+        "imageQuery": "flag national"
+    },
+    {
+        "word": "ҚАЗАҚСТАН",
+        "translation": "қазақстан — Казахстан",
+        "emoji": "🇰🇿",
+        "imageQuery": "kazakhstan country"
+    },
+    {
+        "word": "НАМАЗ",
+        "translation": "намаз — намаз (молитва)",
+        "emoji": "🕌",
+        "imageQuery": "prayer mosque"
+    },
+    {
+        "word": "МЕШІТ",
+        "translation": "мешіт — мечеть",
+        "emoji": "🕌",
+        "imageQuery": "mosque islam"
+    },
+    {
+        "word": "ОРАМАЛ",
+        "translation": "орамал — платок",
+        "emoji": "🧣",
+        "imageQuery": "scarf headscarf"
+    },
+    {
+        "word": "БЕЛБЕУ",
+        "translation": "белбеу — пояс / ремень",
+        "emoji": "👔",
+        "imageQuery": "belt waist"
+    },
+    {
+        "word": "СЫРҒА",
+        "translation": "сырға — серьга",
+        "emoji": "💎",
+        "imageQuery": "earring jewelry"
+    },
+    {
+        "word": "БІЛЕЗІК",
+        "translation": "білезік — браслет",
+        "emoji": "💍",
+        "imageQuery": "bracelet jewelry"
+    },
+    {
+        "word": "САҚИНА",
+        "translation": "сақина — кольцо",
+        "emoji": "💍",
+        "imageQuery": "ring jewelry"
+    },
+    {
+        "word": "ТАРАҚ",
+        "translation": "тарақ — расчёска",
+        "emoji": "💈",
+        "imageQuery": "comb hair"
+    },
+    {
+        "word": "АЙНА",
+        "translation": "айна — зеркало",
+        "emoji": "🪞",
+        "imageQuery": "mirror reflection"
+    },
+    {
+        "word": "САБЫН",
+        "translation": "сабын — мыло",
+        "emoji": "🧼",
+        "imageQuery": "soap wash"
+    },
+    {
+        "word": "СҮЛГІ",
+        "translation": "сүлгі — полотенце",
+        "emoji": "🛁",
+        "imageQuery": "towel bathroom"
+    },
+    {
+        "word": "ТІС ЩЕТКАСЫ",
+        "translation": "тіс щеткасы — зубная щётка",
+        "emoji": "🪥",
+        "imageQuery": "toothbrush dental"
+    },
+    {
+        "word": "ШАШБАУ",
+        "translation": "шашбау — заколка для волос",
+        "emoji": "🎀",
+        "imageQuery": "hair clip"
+    },
+    {
+        "word": "ШАҢСОРҒЫШ",
+        "translation": "шаңсорғыш — пылесос",
+        "emoji": "🧹",
+        "imageQuery": "vacuum cleaner"
+    },
+    {
+        "word": "ЖУҒЫШ",
+        "translation": "жуғыш — стиральная машина",
+        "emoji": "🫧",
+        "imageQuery": "washing machine"
+    },
+    {
+        "word": "ТОҢАЗЫТҚЫШ",
+        "translation": "тоңазытқыш — холодильник",
+        "emoji": "🧊",
+        "imageQuery": "refrigerator kitchen"
+    },
+    {
+        "word": "ПЕШ",
+        "translation": "пеш — печь / плита",
+        "emoji": "🍳",
+        "imageQuery": "stove oven"
+    },
+    {
+        "word": "ШАМ",
+        "translation": "шам — лампа / свеча",
+        "emoji": "💡",
+        "imageQuery": "lamp light"
+    },
+    {
+        "word": "КІЛТ",
+        "translation": "кілт — ключ",
+        "emoji": "🔑",
+        "imageQuery": "key lock"
+    },
+    {
+        "word": "СӨМКЕ",
+        "translation": "сөмке — сумка",
+        "emoji": "👜",
+        "imageQuery": "bag purse"
+    },
+    {
+        "word": "ҚАЛТА",
+        "translation": "қалта — карман / кошелёк",
+        "emoji": "👝",
+        "imageQuery": "pocket wallet"
+    },
+    {
+        "word": "ЖӘШІК",
+        "translation": "жәшік — ящик / коробка",
+        "emoji": "📦",
+        "imageQuery": "box container"
+    },
+    {
+        "word": "ҚОҚЫС",
+        "translation": "қоқыс — мусор",
+        "emoji": "🗑️",
+        "imageQuery": "trash garbage"
+    },
+    {
+        "word": "ТІРШІЛІК",
+        "translation": "тіршілік — живое существо",
+        "emoji": "🌿",
+        "imageQuery": "living creature"
+    },
+    {
+        "word": "ЖӘНДІК",
+        "translation": "жәндік — насекомое",
+        "emoji": "🐛",
+        "imageQuery": "insect bug"
+    },
+    {
+        "word": "КӨБЕЛЕк",
+        "translation": "көбелек — бабочка",
+        "emoji": "🦋",
+        "imageQuery": "butterfly insect"
+    },
+    {
+        "word": "АРА",
+        "translation": "ара — пчела",
+        "emoji": "🐝",
+        "imageQuery": "bee honey"
+    },
+    {
+        "word": "ШЕГІРТКЕ",
+        "translation": "шегіртке — кузнечик",
+        "emoji": "🦗",
+        "imageQuery": "grasshopper insect"
+    },
+    {
+        "word": "ДАЛА ИТ",
+        "translation": "дала ит — волк (дословно)",
+        "emoji": "🐺",
+        "imageQuery": "steppe wolf"
+    },
+    {
+        "word": "МАРАЛ",
+        "translation": "марал — олень",
+        "emoji": "🦌",
+        "imageQuery": "deer maral"
+    },
+    {
+        "word": "ҚАСҚЫР",
+        "translation": "қасқыр — волк",
+        "emoji": "🐺",
+        "imageQuery": "wolf predator"
+    },
+    {
+        "word": "ЛАШЫН",
+        "translation": "лашын — сокол",
+        "emoji": "🦅",
+        "imageQuery": "falcon bird"
+    },
+    {
+        "word": "БҮРКІТ",
+        "translation": "бүркіт — беркут",
+        "emoji": "🦅",
+        "imageQuery": "eagle berkut kazakh"
+    },
+    {
+        "word": "ТЫРНА",
+        "translation": "тырна — журавль",
+        "emoji": "🦢",
+        "imageQuery": "crane bird"
+    },
+    {
+        "word": "АҚҚУ",
+        "translation": "аққу — лебедь",
+        "emoji": "🦢",
+        "imageQuery": "swan white bird"
+    },
+    {
+        "word": "ТОТЫ",
+        "translation": "тоты — попугай",
+        "emoji": "🦜",
+        "imageQuery": "parrot bird"
+    },
+    {
+        "word": "ҮКІ",
+        "translation": "үкі — сова",
+        "emoji": "🦉",
+        "imageQuery": "owl bird"
+    },
+    {
+        "word": "ҚАРҒА",
+        "translation": "қарға — ворона",
+        "emoji": "🐦‍⬛",
+        "imageQuery": "crow raven"
+    },
+    {
+        "word": "ТОРҒАЙ",
+        "translation": "торғай — воробей",
+        "emoji": "🐦",
+        "imageQuery": "sparrow small bird"
+    },
+    {
+        "word": "ҚЫЗҒАЛДАҚ",
+        "translation": "қызғалдақ — тюльпан",
+        "emoji": "🌷",
+        "imageQuery": "tulip flower kazakh"
+    },
+    {
+        "word": "РАУШАН",
+        "translation": "раушан — роза",
+        "emoji": "🌹",
+        "imageQuery": "rose flower"
+    },
+    {
+        "word": "ЖУСАН",
+        "translation": "жусан — полынь",
+        "emoji": "🌿",
+        "imageQuery": "wormwood herb steppe"
+    },
+    {
+        "word": "ШЫРША",
+        "translation": "шырша — ель",
+        "emoji": "🌲",
+        "imageQuery": "spruce pine tree"
+    },
+    {
+        "word": "ҚАЙЫҢ",
+        "translation": "қайың — берёза",
+        "emoji": "🌳",
+        "imageQuery": "birch tree white"
+    },
+    {
+        "word": "ТЕРЕКТЕР",
+        "translation": "терек — тополь",
+        "emoji": "🌳",
+        "imageQuery": "poplar tree"
+    },
+    {
+        "word": "ЖАҢҒАҚ",
+        "translation": "жаңғақ — орех",
+        "emoji": "🌰",
+        "imageQuery": "walnut nut"
+    },
+    {
+        "word": "ШАБЫТ",
+        "translation": "шабыт — вдохновение",
+        "emoji": "✨",
+        "imageQuery": "inspiration creative"
+    },
+    {
+        "word": "ШЫҒАРМА",
+        "translation": "шығарма — сочинение",
+        "emoji": "✍️",
+        "imageQuery": "essay writing"
+    },
+    {
+        "word": "ӨЛЕҢ",
+        "translation": "өлең — стихотворение",
+        "emoji": "📝",
+        "imageQuery": "poem poetry"
+    },
+    {
+        "word": "ӘҢГІМЕ",
+        "translation": "әңгіме — рассказ / разговор",
+        "emoji": "📖",
+        "imageQuery": "story tale"
+    },
+    {
+        "word": "ЕРТЕГІ",
+        "translation": "ертегі — сказка",
+        "emoji": "📚",
+        "imageQuery": "fairy tale story"
+    },
+    {
+        "word": "ЖЫР",
+        "translation": "жыр — эпос / песня",
+        "emoji": "🎵",
+        "imageQuery": "epic song poetry"
+    },
+    {
+        "word": "МАҚАЛ",
+        "translation": "мақал — пословица",
+        "emoji": "💬",
+        "imageQuery": "proverb wisdom"
+    },
+    {
+        "word": "ЖҰМБАҚ",
+        "translation": "жұмбақ — загадка",
+        "emoji": "🧩",
+        "imageQuery": "riddle puzzle"
+    },
+    {
+        "word": "САНАМАҚ",
+        "translation": "санамақ — считалочка",
+        "emoji": "🔢",
+        "imageQuery": "counting rhyme"
+    },
+    {
+        "word": "ОТАН",
+        "translation": "отан — Родина",
+        "emoji": "🏡",
+        "imageQuery": "homeland motherland"
+    },
+    {
+        "word": "БАЙРАҚ",
+        "translation": "байрақ — флаг",
+        "emoji": "🚩",
+        "imageQuery": "flag banner"
+    },
+    {
+        "word": "ЖАС",
+        "translation": "жас — молодой / возраст",
+        "emoji": "🌱",
+        "imageQuery": "young age"
+    },
+    {
+        "word": "ҚАРТ",
+        "translation": "қарт — старый / пожилой",
+        "emoji": "👴",
+        "imageQuery": "old elderly"
+    },
+    {
+        "word": "ТАМАҚ",
+        "translation": "тамақ — еда / горло",
+        "emoji": "🍽️",
+        "imageQuery": "food eating"
+    },
+    {
+        "word": "ПІСІРУ",
+        "translation": "пісіру — варить / готовить",
+        "emoji": "🍳",
+        "imageQuery": "cooking boiling"
+    },
+    {
+        "word": "ІШУ",
+        "translation": "ішу — пить",
+        "emoji": "🥤",
+        "imageQuery": "drinking beverage"
+    },
+    {
+        "word": "ЖЕУ",
+        "translation": "жеу — кушать",
+        "emoji": "😋",
+        "imageQuery": "eating food"
+    }
+]

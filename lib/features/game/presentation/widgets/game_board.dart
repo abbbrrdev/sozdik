@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import '../../../../core/constants/app_constants.dart';
 import '../../domain/entities/guess_entity.dart';
@@ -70,8 +72,10 @@ class _CompletedRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final tileSize = getTileSize(context, wordLength);
+    
     return SizedBox(
-      height: 58,
+      height: tileSize,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: List.generate(wordLength, (colIndex) {
@@ -80,8 +84,8 @@ class _CompletedRow extends StatelessWidget {
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 3),
             child: SizedBox(
-              width: 58,
-              height: 58,
+              width: tileSize,
+              height: tileSize,
               child: LetterTile(
                 key: ValueKey('tile_${rowIndex}_$colIndex'),
                 letter: letter.letter,
@@ -107,18 +111,20 @@ class _CurrentRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final tileSize = getTileSize(context, wordLength);
+
     return SizedBox(
-      height: 58,
+      height: tileSize,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: List.generate(wordLength, (colIndex) {
-          // ← было AppConstants.wordLength
           final letter = colIndex < input.length ? input[colIndex] : '';
+
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 3),
             child: SizedBox(
-              width: 58,
-              height: 58,
+              width: tileSize,
+              height: tileSize,
               child: LetterTile(
                 key: ValueKey('current_$colIndex'),
                 letter: letter,
@@ -140,18 +146,19 @@ class _EmptyRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final tileSize = getTileSize(context, wordLength);
+
     return SizedBox(
-      height: 58,
+      height: tileSize,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: List.generate(wordLength, (colIndex) {
-          // ← было AppConstants.wordLength
-          return const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 3),
+          return Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 3),
             child: SizedBox(
-              width: 58,
-              height: 58,
-              child: LetterTile(
+              width: tileSize,
+              height: tileSize,
+              child: const LetterTile(
                 letter: '',
                 status: LetterStatus.initial,
               ),
@@ -161,4 +168,17 @@ class _EmptyRow extends StatelessWidget {
       ),
     );
   }
+}
+
+double getTileSize(BuildContext context, int wordLength) {
+  final screenWidth = MediaQuery.of(context).size.width;
+
+  const horizontalPadding = 6.0;
+  const boardHorizontalPadding = 16.0;
+
+  return math.min(
+    58.0,
+    (screenWidth - boardHorizontalPadding - wordLength * horizontalPadding) /
+        wordLength,
+  );
 }
