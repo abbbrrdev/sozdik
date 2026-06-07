@@ -497,15 +497,20 @@ class _GamePageBodyState extends State<_GamePageBody> {
     Map<String, LetterStatus> keyboardStatus = {};
     bool isInvalidWord = false;
 
+    int wordLength = 5;
+
     if (state is GameInProgress) {
       completedGuesses = state.completedGuesses;
       currentInput = state.currentInput;
       keyboardStatus = state.keyboardStatus;
       isInvalidWord = state.isInvalidWord;
+      wordLength = state.targetWord.length;
     } else if (state is GameWon) {
       completedGuesses = state.guesses;
+      wordLength = state.targetWord.length;
     } else if (state is GameLost) {
       completedGuesses = state.guesses;
+      wordLength = state.targetWord.length;
     }
 
     final bloc = context.read<GameBloc>();
@@ -520,6 +525,7 @@ class _GamePageBodyState extends State<_GamePageBody> {
               completedGuesses: List.from(completedGuesses),
               currentInput: currentInput,
               shakeCurrentRow: isInvalidWord,
+              wordLength: wordLength,
               onShakeComplete: () => bloc.add(const InvalidWordCleared()),
             ),
           ),

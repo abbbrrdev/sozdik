@@ -5,17 +5,18 @@ import '../../domain/entities/letter_entity.dart';
 import 'letter_tile.dart';
 import 'shake_animation.dart';
 
-/// The 5×5 game board showing all rows (completed guesses + current input + empty rows)
 class GameBoard extends StatelessWidget {
   final List<GuessEntity> completedGuesses;
   final List<String> currentInput;
   final bool shakeCurrentRow;
   final VoidCallback? onShakeComplete;
+  final int wordLength; // ← добавляем
 
   const GameBoard({
     super.key,
     required this.completedGuesses,
     required this.currentInput,
+    required this.wordLength, // ← добавляем
     this.shakeCurrentRow = false,
     this.onShakeComplete,
   });
@@ -38,27 +39,34 @@ class GameBoard extends StatelessWidget {
     final isCurrentRow = rowIndex == completedGuesses.length;
 
     if (isCompleted) {
-      return _CompletedRow(guess: completedGuesses[rowIndex], rowIndex: rowIndex);
+      return _CompletedRow(
+        guess: completedGuesses[rowIndex],
+        rowIndex: rowIndex,
+        wordLength: wordLength, // ← передаём
+      );
     }
-
     if (isCurrentRow) {
       return ShakeAnimation(
         shake: shakeCurrentRow,
         onShakeComplete: onShakeComplete,
-        child: _CurrentRow(input: currentInput),
+        child: _CurrentRow(
+            input: currentInput, wordLength: wordLength), // ← передаём
       );
     }
-
-    return const _EmptyRow();
+    return _EmptyRow(wordLength: wordLength); // ← передаём
   }
 }
 
-/// A completed (submitted) row with flip animations
 class _CompletedRow extends StatelessWidget {
   final GuessEntity guess;
   final int rowIndex;
+  final int wordLength; // ← добавляем
 
-  const _CompletedRow({required this.guess, required this.rowIndex});
+  const _CompletedRow({
+    required this.guess,
+    required this.rowIndex,
+    required this.wordLength, // ← добавляем
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -66,7 +74,8 @@ class _CompletedRow extends StatelessWidget {
       height: 58,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: List.generate(AppConstants.wordLength, (colIndex) {
+        children: List.generate(wordLength, (colIndex) {
+          // ← было AppConstants.wordLength
           final letter = guess.letters[colIndex];
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 3),
@@ -77,7 +86,7 @@ class _CompletedRow extends StatelessWidget {
                 key: ValueKey('tile_${rowIndex}_$colIndex'),
                 letter: letter.letter,
                 status: letter.status,
-                flipDelay: colIndex * 150, // staggered flip
+                flipDelay: colIndex * 150,
               ),
             ),
           );
@@ -87,11 +96,14 @@ class _CompletedRow extends StatelessWidget {
   }
 }
 
-/// The current active row being typed
 class _CurrentRow extends StatelessWidget {
   final List<String> input;
+  final int wordLength; // ← добавляем
 
-  const _CurrentRow({required this.input});
+  const _CurrentRow({
+    required this.input,
+    required this.wordLength, // ← добавляем
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -99,7 +111,8 @@ class _CurrentRow extends StatelessWidget {
       height: 58,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: List.generate(AppConstants.wordLength, (colIndex) {
+        children: List.generate(wordLength, (colIndex) {
+          // ← было AppConstants.wordLength
           final letter = colIndex < input.length ? input[colIndex] : '';
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 3),
@@ -120,9 +133,10 @@ class _CurrentRow extends StatelessWidget {
   }
 }
 
-/// An empty row (future attempts)
 class _EmptyRow extends StatelessWidget {
-  const _EmptyRow();
+  final int wordLength; // ← добавляем
+
+  const _EmptyRow({required this.wordLength}); // ← добавляем
 
   @override
   Widget build(BuildContext context) {
@@ -130,7 +144,8 @@ class _EmptyRow extends StatelessWidget {
       height: 58,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: List.generate(AppConstants.wordLength, (colIndex) {
+        children: List.generate(wordLength, (colIndex) {
+          // ← было AppConstants.wordLength
           return const Padding(
             padding: EdgeInsets.symmetric(horizontal: 3),
             child: SizedBox(

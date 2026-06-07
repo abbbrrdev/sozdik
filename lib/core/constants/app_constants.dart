@@ -3,7 +3,7 @@ class AppConstants {
   AppConstants._();
 
   /// Number of letters in each word
-  static const int wordLength = 5;
+  // static const int wordLength = 5;
 
   /// Maximum number of guess attempts
   static const int maxAttempts = 5;

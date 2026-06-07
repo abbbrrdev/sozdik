@@ -62,7 +62,7 @@ class GameBloc extends Bloc<GameEvent, GameState> {
   void _onLetterAdded(LetterAdded event, Emitter<GameState> emit) {
     final state = this.state;
     if (state is! GameInProgress) return;
-    if (state.currentInput.length >= AppConstants.wordLength) return;
+    if (state.currentInput.length >= state.targetWord.length) return;
 
     emit(state.copyWith(
       currentInput: [...state.currentInput, event.letter.toUpperCase()],
@@ -96,7 +96,7 @@ class GameBloc extends Bloc<GameEvent, GameState> {
     if (state is! GameInProgress) return;
 
     // Check minimum length
-    if (state.currentInput.length < AppConstants.wordLength) {
+    if (state.currentInput.length < state.targetWord.length) {
       emit(state.copyWith(
         isInvalidWord: true,
         toastMessage: AppStrings.notEnoughLetters,
@@ -107,14 +107,14 @@ class GameBloc extends Bloc<GameEvent, GameState> {
     final guessWord = state.currentInput.join();
 
     // Validate word exists in dictionary
-    final existsResult = await checkWordExists(CheckWordExistsParams(guessWord));
+    final existsResult =
+        await checkWordExists(CheckWordExistsParams(guessWord));
     final wordExists = existsResult.fold((_) => false, (exists) => exists);
 
     if (!wordExists) {
       emit(state.copyWith(
         isInvalidWord: true,
         toastMessage: AppStrings.wordNotFound,
-        
       ));
       return;
     }
@@ -128,10 +128,12 @@ class GameBloc extends Bloc<GameEvent, GameState> {
       (failure) async => emit(GameError(failure.message)),
       (guess) async {
         // Update keyboard status: only upgrade (absent < present < correct)
-        final newKeyboardStatus = Map<String, LetterStatus>.from(state.keyboardStatus);
+        final newKeyboardStatus =
+            Map<String, LetterStatus>.from(state.keyboardStatus);
         for (final letter in guess.letters) {
           final current = newKeyboardStatus[letter.letter];
-          if (current == null || _statusPriority(letter.status) > _statusPriority(current)) {
+          if (current == null ||
+              _statusPriority(letter.status) > _statusPriority(current)) {
             newKeyboardStatus[letter.letter] = letter.status;
           }
         }
@@ -145,9 +147,10 @@ class GameBloc extends Bloc<GameEvent, GameState> {
           await saveGameResult(
             SaveGameResultParams(won: true, attemptsUsed: attemptsUsed),
           );
-          
+
           final detailsResult = await getWordDetails(state.targetWord);
-          final wordDetails = detailsResult.fold((_) => null, (details) => details);
+          final wordDetails =
+              detailsResult.fold((_) => null, (details) => details);
 
           emit(GameWon(
             targetWord: state.targetWord,
@@ -161,11 +164,13 @@ class GameBloc extends Bloc<GameEvent, GameState> {
         // Check loss
         if (newAttemptsLeft == 0) {
           await saveGameResult(
-            const SaveGameResultParams(won: false, attemptsUsed: AppConstants.maxAttempts),
+            const SaveGameResultParams(
+                won: false, attemptsUsed: AppConstants.maxAttempts),
           );
-          
+
           final detailsResult = await getWordDetails(state.targetWord);
-          final wordDetails = detailsResult.fold((_) => null, (details) => details);
+          final wordDetails =
+              detailsResult.fold((_) => null, (details) => details);
 
           emit(GameLost(
             targetWord: state.targetWord,
