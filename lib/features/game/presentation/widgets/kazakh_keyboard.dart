@@ -18,12 +18,12 @@ class KazakhKeyboard extends StatelessWidget {
     required this.onEnter,
   });
 
-  // Kazakh Cyrillic keyboard layout rows
+  // Kazakh Cyrillic standard keyboard layout rows
   static const List<List<String>> _rows = [
-    ['Қ', 'Ү', 'Ұ', 'Ң', 'Ғ', 'Ә', 'І', 'Ө', 'Һ'],
-    ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ж', 'З', 'И'],
-    ['Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С'],
-    ['Т', 'У', 'Ф', 'Х', 'Ш', 'Ы', 'Э', 'Ю', 'Я'],
+    ['Ә', 'І', 'Ң', 'Ғ', 'Ү', 'Ұ', 'Қ', 'Ө', 'Һ'],
+    ['Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ'],
+    ['Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э'],
+    ['ENTER', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', 'DELETE'],
   ];
 
   @override
@@ -31,42 +31,58 @@ class KazakhKeyboard extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        ..._rows.map((row) => _buildLetterRow(row)),
-        const SizedBox(height: 6),
-        _buildActionRow(),
+        for (int i = 0; i < _rows.length; i++)
+          _buildLetterRow(_rows[i], i),
       ],
     );
   }
 
-  Widget _buildLetterRow(List<String> letters) {
+  Widget _buildLetterRow(List<String> letters, int rowIndex) {
+    int totalFlex = 24;
+    int keysFlex = 0;
+    
+    List<Widget> children = [];
+    for (var letter in letters) {
+      if (letter == 'ENTER' || letter == 'DELETE') {
+        keysFlex += 3;
+        children.add(
+          Expanded(
+            flex: 3,
+            child: _buildWideActionKey(
+              label: letter == 'ENTER' ? 'ЕНГІЗ' : '⌫',
+              onTap: letter == 'ENTER' ? onEnter : onDelete,
+              backgroundColor: letter == 'ENTER' ? AppColors.accent : AppColors.keyDefault,
+              textColor: letter == 'ENTER' ? Colors.white : AppColors.keyText,
+              fontSize: letter == 'ENTER' ? 12 : 18,
+            ),
+          ),
+        );
+      } else {
+        keysFlex += 2;
+        children.add(
+          Expanded(
+            flex: 2,
+            child: _buildKey(letter),
+          ),
+        );
+      }
+    }
+    
+    int remainingFlex = totalFlex - keysFlex;
+    if (remainingFlex > 0) {
+      int spaceFlex = remainingFlex ~/ 2;
+      if (spaceFlex > 0) {
+        children.insert(0, Spacer(flex: spaceFlex));
+        children.add(Spacer(flex: spaceFlex));
+      }
+    }
+
     return Padding(
       padding: const EdgeInsets.only(bottom: 6),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: letters.map((letter) => _buildKey(letter)).toList(),
+        children: children,
       ),
-    );
-  }
-
-  Widget _buildActionRow() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        _buildWideActionKey(
-          label: '⌫',
-          onTap: onDelete,
-          backgroundColor: AppColors.keyDefault,
-          textColor: AppColors.keyText,
-        ),
-        const SizedBox(width: 6),
-        _buildWideActionKey(
-          label: 'ЕНГІЗ',
-          onTap: onEnter,
-          backgroundColor: AppColors.accent,
-          textColor: Colors.white,
-          fontSize: 12,
-        ),
-      ],
     );
   }
 
@@ -79,8 +95,7 @@ class KazakhKeyboard extends StatelessWidget {
       onTap: () => onLetterTap(letter),
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 250),
-        margin: const EdgeInsets.symmetric(horizontal: 3),
-        width: 32,
+        margin: const EdgeInsets.symmetric(horizontal: 2),
         height: 44,
         decoration: BoxDecoration(
           color: bg,
@@ -116,7 +131,7 @@ class KazakhKeyboard extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: 90,
+        margin: const EdgeInsets.symmetric(horizontal: 2),
         height: 44,
         decoration: BoxDecoration(
           color: backgroundColor,

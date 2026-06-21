@@ -64,12 +64,11 @@ class _HomePageState extends State<HomePage>
                     children: [
                       SizedBox(
                         width: 220,
-                        height: 140, 
+                        height: 140,
                         child: ClipRect(
                           child: Align(
                             alignment: Alignment.topCenter,
-                            heightFactor:
-                                0.5,
+                            heightFactor: 0.5,
                             child: Lottie.asset(
                               'assets/json/owl.json',
                               width: 280,
@@ -88,7 +87,7 @@ class _HomePageState extends State<HomePage>
                             fontWeight: FontWeight.w800,
                             color: Colors.white,
                           ),
-                          children: const[
+                          children: const [
                             TextSpan(text: 'Сәлем, '),
                             TextSpan(
                               text: 'ойыншы!',
